@@ -1273,7 +1273,7 @@ class LassoCV(LinearModelCV, RegressorMixin):
         all the CPUs.
 
     positive : bool, optional
-        If positive, restrict regression coefficients to be positive
+        If True, restrict regression coefficients to be positive
 
     selection : str, default 'cyclic'
         If set to 'random', a random coefficient is updated every iteration
